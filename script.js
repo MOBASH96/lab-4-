@@ -1,4 +1,4 @@
-// lab06  
+// lab07 using some function   
 
 var liv= "liverpool fan page" ; 
 var livq = "are you liverpool fan ?" ;
@@ -10,12 +10,18 @@ var shot = "shot, liverpool better ( We will never walk alone ) "
 alert(liv); 
  
 if (prompt(livq )=="yes")
-{alert ("welcom to the liverpool news page") ;}
+{ welcom();}
 
- else { prompt( notliv) & alert(shot) }
+ else { notwelcom (); }
  ;
 
+ function welcom ()  {
+    alert ("welcom to the liverpool news page") ;
+ }
+    
 
+ function notwelcom () {
+    prompt( notliv) & alert(shot);
 
-
+ }
 
